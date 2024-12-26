@@ -60,7 +60,7 @@ body{
     justify-content: space-between;
     position: relative;
 }
-.menu::after {
+.menu_after {
     position: absolute;
     content: "";
     width: 55px;
@@ -68,7 +68,8 @@ body{
     background-color: #303030;
     border-radius: 3px;
     bottom: -2px;
-    left: -2px;
+    left: -2px; 
+    /* left: 320px; */
 }
 .menu a{
     text-decoration: none;
